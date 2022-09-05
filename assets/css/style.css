@@ -1,15 +1,9 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #ffffff;
-  padding: 31px 223px;
+  padding: 26px 223px 18px 223px;
 }
 
 .input-search {
@@ -28,6 +22,43 @@
 ::-webkit-input-placeholder {
   color: #999999;
 }
+
+.menu-news {
+  padding: 18px 223px;
+  margin: -33px 0px;
+}
+
+.list-news {
+  padding: 0px;
+}
+li {
+  display: inline;
+  font-size: 12px;
+  font-weight: 600px;
+  line-height: 18px;
+  margin-right: 12.5px;
+  font-family: prompt;
+}
+.vektor-1 {
+  position: relative;
+  right: 14px;
+}
+.list-right {
+  position: relative;
+  left: 49px;
+}
+
+.line-1 {
+  width: 938px;
+  position: absolute;
+  bottom: 24.83%;
+  right: 14.79%;
+  left: 215px;
+  height: 1px;
+  top: 132px;
+  background-color: #e5e5e5;
+}
+
 /* responsive (desktop view) */
 @media only screen and (min-width: 600px) {
   .hamburger {
