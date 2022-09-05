@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
 .navbar {
   display: flex;
   align-items: center;
@@ -57,6 +58,50 @@ li {
   height: 1px;
   top: 132px;
   background-color: #e5e5e5;
+}
+.list-news-2 {
+  margin: 0px;
+  padding: 10px 0px;
+}
+.list-p {
+  font-family: prompt;
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 500px !important;
+  color: #000000;
+  font-style: normal;
+}
+
+.breaking-box-img {
+  position: relative;
+  z-index: 1;
+}
+
+.breaking-box {
+  background-color: #ca0000;
+  width: 878px;
+  height: 40px;
+  position: absolute;
+  top: 171px;
+  left: 264px;
+  border-bottom-right-radius: 15px;
+}
+.breaking-p {
+  color: white;
+  font-family: Lato;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 700px;
+  position: absolute;
+  height: 14px;
+  left: 13.4%;
+  right: 1.08%;
+  top: calc(20% - 17px / 2);
+}
+
+/* Iklan-1 */
+.iklan-1 {
+  padding: 30px 331px;
 }
 
 /* responsive (desktop view) */
